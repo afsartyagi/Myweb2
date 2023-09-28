@@ -1,0 +1,394 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+/*  navbar */
+
+nav{
+    width:100%;
+    height:60px;
+    background-color: #D3134F;
+    z-index: 1000;
+    position: fixed;
+}
+.navBar{
+    width: 40%;
+    margin: auto;
+}
+
+.navBarChield{
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: relative;
+   font-size: 14px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.shopCon:hover .shopUL{
+    display: block;
+}
+.shopUL{
+margin: 0;
+display: none;
+transition: all 0.5s ease-in-out;
+}
+.dropDownCon{
+    width:600px;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: absolute;
+    top:100%;
+    right:40%;
+
+}
+.dropDownCon li{
+    font-size: 13px;
+}
+
+
+.homeDecorUl{display: none;
+margin: 0;
+transition: all 0.5s ease-in-out;}
+.homeDecorCon:hover .homeDecorUl{
+    display: block;
+}
+.homeDecorLoCon{
+    width:550px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: absolute;
+    top:100%;
+    right:0%;
+}
+
+.homeDecorUl li{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.homeDecorRight{
+    padding-right: 30px;
+}
+
+
+/* -------   VIDEO   --------- */
+
+.videoCon video{
+width:100%;
+height:100%;
+}
+
+
+
+.container{width:100%;
+height:235px;
+margin-top: 36px;}
+
+.imgCarousal{width:94%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: auto;
+}
+
+.mainImgCon{
+    width:15%; 
+    text-align: center; 
+    display: inline-block;
+  
+}
+.imgOne{
+    width:175px;
+    height:175px;
+    border-radius:50%;
+}
+.imgTitle{
+    font-weight: 200;
+    font-size:16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ===========   INCENSE   ========= */
+
+.insenseMain{
+    width:100%;
+    height: 355px;
+}
+.insenseCon{
+width:94%;
+margin: auto;
+}
+.insenseHeading{
+    width:98%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insenseHeadTitle{
+    font-size: 22px;
+    color:#222;
+}
+.viewAllBtn{
+      width:90px ;
+      height:32px;
+      background-color: #D3134F;
+      border:none;
+      color:White;
+      outline: none;
+      cursor: pointer;
+}
+.insenseChield{
+width:100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: auto;
+
+}
+.insense{
+width:200px;
+height:280px;
+}
+.insenseImg{
+    width:190px;
+    height:180px;
+    cursor:pointer;
+}
+.content{
+    width:190px;
+    height:60px;
+    
+}
+.insenseTitle{
+    font-weight: 200;
+    font-size:18px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.insensePrice{
+    margin: 8px 0;  
+    font-size: 17px;
+}
+.priceDel{color:rgb(180, 81, 0)}
+
+.addCart{
+    width:190px;
+    height:28px;
+    background-color: #D3134F;
+    border:none;
+    color:White;
+    outline: none;
+    cursor: pointer;
+}
+.bgImgCon{
+    width:100%;
+    height:420px;
+    margin-top: 25px;
+}
+.bg-img{
+    width:93%;
+    margin:auto
+}
+.largeImg{
+    width:1240px;
+    height:380px; 
+}
+.bg-img2{
+   height: 400px;
+}
+
+/* serviceCon */
+
+.serviceCon{
+    width:100%;
+    height:250px;
+}
+.serviceChield{
+width:92%;
+margin:auto;
+height: 250px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 25px;
+}
+.serviceBox{
+    width:300px;
+    height:100px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+
+ 
+}
+.serviceImg{
+    width:75px;
+    height:45px; 
+}
+.serimg{
+    width:80px;
+    height:50px;   
+}
+.serimg3{
+    width:100px;
+    height:60px; 
+}
+.serviceContent{
+    padding: 0 30px;
+}
+.serviceTitle{
+    font-weight: 800;
+    font-size:20px;
+    margin-bottom: 10px;    
+}
+.servicePgh{
+    font-size: 17px;
+}
+
+.descriptionCon{
+width:100%;
+}
+.descriptionChield{
+width:92%;
+margin: auto;
+}
+.destitle{
+   font-weight: 200;
+   font-size:20px; 
+   text-align: center;
+   margin-bottom: 15px;
+}
+.desPgh{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+/* =========  FOOTER ======== */
+footer{
+    width:100%;
+    height:400px;
+    background-color: #ffb8bd;
+}
+.footerCon{width:90%;
+    height: 300px;
+    border-bottom: 1px solid white;
+    margin: auto;
+}
+.footerChield{
+width:100%;
+height: 250px;
+display: flex;
+padding-top: 38px;
+color:white;
+
+}
+
+.footerBox{
+    width:21%;
+    border-right: 1px solid white;
+text-align: center;
+}
+.footerLogo{
+    width:180px;
+    height:100px;
+    margin-bottom: 20px;
+}
+.socialIcon{
+padding-top: 20px;;
+}
+.customer{
+    width:26%;
+    padding: 25px 15px;
+    border-right: 1px solid white;
+}
+.careTitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.phoneN{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+a{color:white;
+text-decoration: none;}
+
+.information{
+    width:28%;
+    padding: 10px  15px 0 15px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+}
+.informationtitle{
+    font-size: 18px;
+ font-weight: 300;
+}
+ul{
+    list-style: none;
+margin-top: 15px;
+}
+.columnTwo{
+    display: flex;
+}
+li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.rightColumn{
+    padding-left: 33px;
+}
+
+.about{
+    width:22%;
+ margin-top: 20px;
+ padding: 10px  15px 0 15px;
+}
+
+.footerEndCon{
+    width:90%;
+margin: auto;
+}
+.footerEndChield{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.footerReserved{
+    display: flex;
+    align-items: center;
+}
+.footerEndPgh{
+    padding-right: 18px;
+}
+.selected{width: 70px;
+    border: none;
+    background-color:#ffb8bd;
+    color: white;
+}
+
+.onMobile{
+    display: flex;
+    align-items: center;
+}
+.onMobilePgh{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.App{width:100px;
+height:30px;
+padding-left: 10px;}
